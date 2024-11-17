@@ -1,0 +1,13 @@
+<!--Configuracion de xml/ javaee = Java enter price edition
+                                 - JAKARTA EE-->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <!--nombre-->
+  <display-name>Sesion01</display-name>
+
+    <!--Archivo de bienvenida-->
+    <welcome-file-list>
+        <!--Determina que "index.jsp" es el archivo de bienvenida-->
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
