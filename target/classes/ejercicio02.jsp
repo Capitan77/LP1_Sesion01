@@ -10,7 +10,6 @@
 
    <h1>Recibir Parámetros</h1>
 
-
    <form method="GET">
        <label>
             Nombre : <input type="text" name="nombre">
@@ -23,8 +22,7 @@
        <button type="submit">Enviar</button>
    </form>
 
-   <%
-
+<%
       String name = request.getParameter("nombre");
       String age = request.getParameter("edad");
 
