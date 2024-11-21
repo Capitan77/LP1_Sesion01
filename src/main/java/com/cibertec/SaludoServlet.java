@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-//Coneccion con el usuario
+//Coneccion con el usuario -- garcias a JAKARTA en POM.XML
 @WebServlet("/SaludoServlet")
 
 public class SaludoServlet extends HttpServlet {
